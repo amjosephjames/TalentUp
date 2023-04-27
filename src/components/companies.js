@@ -42,12 +42,7 @@ const Container = styled.div`
   @media (max-width: 1024px) {
     height: 90vh;
   }
-  @media (max-width: 900px) {
-    height: 110vh;
-  }
-  @media (max-width: 768px) {
-    height: 115vh;
-  }
+
   @media (max-width: 400px) {
     height: 140vh;
     /* padding-bottom: 10vh; */

@@ -85,9 +85,7 @@ const Wrapper = styled.div`
   @media (max-width: 1024px) {
     width: 95%;
   }
-  @media (max-width: 900px) {
-    width: 95%;
-  }
+
   @media (max-width: 500px) {
     width: 90%;
     height: 90%;
@@ -130,12 +128,6 @@ const Box = styled.div`
   /* margin-top: 15px; */
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  @media (max-width: 900px) {
-    width: 250px;
-  }
-  @media (max-width: 768px) {
-    width: 230px;
-  }
 `;
 
 const Boxwrap = styled.div`
@@ -161,9 +153,6 @@ const H4 = styled.div`
   }
   @media (max-width: 375px) {
     font-size: 17px;
-  }
-  @media (max-width: 900px) {
-    font-size: 16px;
   }
 `;
 const H2 = styled.div`

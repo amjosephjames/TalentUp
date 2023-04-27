@@ -31,12 +31,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 900px) {
-    height: 90vh;
-  }
-  @media (max-width: 768px) {
-    height: 100vh;
-  }
   @media (max-width: 1024px) {
     height: 90vh;
   }
@@ -54,18 +48,11 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 768px) {
-    height: 90%;
-    width: 90%;
-  }
   @media (max-width: 500px) {
     height: 90%;
     width: 90%;
   }
 
-  @media (max-width: 900px) {
-    width: 85%;
-  }
   @media (max-width: 1024px) {
     width: 82%;
   }
@@ -92,13 +79,6 @@ const Holder = styled.div`
   flex-direction: row;
   align-items: center;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    /* background-color: red; */
-    display: flex;
-    height: 85%;
-    justify-content: space-between;
-  }
   @media (max-width: 500px) {
     height: 85%;
     flex-direction: column;
@@ -111,9 +91,6 @@ const Text = styled.div`
   justify-content: space-between;
   flex-direction: column;
 
-  @media (max-width: 768px) {
-    /* width: 350px; */
-  }
   @media (max-width: 500px) {
     width: 100%;
   }
@@ -146,12 +123,6 @@ const Image = styled.img`
   /* width: 300px; */
   height: 350px;
 
-  @media (max-width: 768px) {
-    /* width: 350px; */
-  }
-  @media (max-width: 900px) {
-    width: 400px;
-  }
   @media (max-width: 1024px) {
     width: 450px;
   }

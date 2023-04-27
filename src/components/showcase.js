@@ -27,9 +27,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 768px) {
-    height: 90vh;
-  }
+
   @media (max-width: 500px) {
     height: 90vh;
   }
@@ -44,14 +42,7 @@ const Wrapper = styled.div`
   @media (max-width: 1024px) {
     width: 85%;
   }
-  @media (max-width: 900px) {
-    width: 95%;
-  }
-  @media (max-width: 768px) {
-    height: 90%;
-    width: 90%;
-    flex-direction: column;
-  }
+
   @media (max-width: 500px) {
     height: 90%;
     width: 90%;

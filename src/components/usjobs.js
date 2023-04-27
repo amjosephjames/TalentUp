@@ -28,12 +28,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 768px) {
-    height: 90vh;
-  }
-  @media (max-width: 900px) {
-    height: 90vh;
-  }
   @media (max-width: 1024px) {
     height: 90vh;
   }
@@ -49,15 +43,6 @@ const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
 
-  @media (max-width: 768px) {
-    width: 90%;
-    flex-direction: column;
-  }
-  @media (max-width: 900px) {
-    width: 85%;
-    /* flex-direction: column; */
-    width: 90%;
-  }
   @media (max-width: 1024px) {
     width: 82%;
   }
@@ -102,12 +87,6 @@ const Image = styled.img`
   width: 500px;
   height: 350px;
 
-  @media (max-width: 768px) {
-    /* width: 350px; */
-  }
-  @media (max-width: 900px) {
-    width: 400px;
-  }
   @media (max-width: 1024px) {
     width: 450px;
   }

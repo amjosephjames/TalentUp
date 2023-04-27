@@ -59,7 +59,7 @@ const Container = styled.div`
   align-items: center;
   background-color: white;
   position: fixed;
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,18 +73,12 @@ const Wrapper = styled.div`
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 90%;
     align-items: center;
-  }
-  @media (max-width: 900px) {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 90%;
   }
 `;
 
@@ -98,13 +92,8 @@ const Navigator = styled.div`
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  @media (max-width: 768px) {
-    display: none;
-  }
+
   @media (max-width: 500px) {
-    display: none;
-  }
-  @media (max-width: 900px) {
     display: none;
   }
 `;
@@ -129,10 +118,8 @@ const Icons = styled.div`
   font-weight: bolder;
   display: none;
   cursor: pointer;
-  @media (max-width: 768px) {
-    display: block;
-  }
-  @media (max-width: 900px) {
+
+  @media (max-width: 500px) {
     display: block;
   }
 `;
@@ -161,7 +148,7 @@ const Sidebar = styled.div`
   overflow: hidden;
   top: 0;
   left: 0;
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     display: flex;
     justify-content: center;
     align-items: center;

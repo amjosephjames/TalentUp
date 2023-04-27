@@ -70,12 +70,6 @@ const Box = styled.div`
   /* margin-top: 15px; */
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  @media (max-width: 900px) {
-    width: 250px;
-  }
-  @media (max-width: 768px) {
-    width: 230px;
-  }
 `;
 
 const Boxwrap = styled.div`
@@ -98,9 +92,6 @@ const H4 = styled.div`
     font-size: 16px;
   }
   @media (max-width: 360px) {
-    font-size: 16px;
-  }
-  @media (max-width: 900px) {
     font-size: 16px;
   }
 `;
